@@ -1,0 +1,502 @@
+"use client";
+import style from '@/app/eBook/eBook.module.css';
+import Link from 'next/link';
+import { useState } from 'react';
+import BackButton from '@/app/_component/BackButton';
+import Image from 'next/image';
+
+export default function Ebook() {
+
+    const [day1Open, setDay1Open] = useState(false);
+    const [day2Open, setDay2Open] = useState(false);
+    const [day3Open, setDay3Open] = useState(false);
+    
+    const day1OpenClickOpen = () => {
+        setDay1Open(true);
+    };
+    const day1OpenClickClose = () => {
+        setDay1Open(false);
+    };
+    const day2OpenClickOpen = () => {
+        setDay2Open(true);
+    };
+    const day2OpenClickClose = () => {
+        setDay2Open(false);
+    };
+    const day3OpenClickOpen = () => {
+        setDay3Open(true);
+    };
+    const day3OpenClickClose = () => {
+        setDay3Open(false);
+    };
+    
+    return (
+    <div className={style.main}>
+        
+        <div className={style.header}>
+        <BackButton/>
+            <h1>2024 Global Marketing Meeting <br/>Presentation eBooks</h1>
+            <Image
+          className={style.logo}
+          src="/parksystemsLogo.svg"
+          alt="Park Logo"
+          width={180}
+          height={37}
+          priority
+        />
+        </div>
+        
+        <div className={style.body}>
+            {/* instruction */}
+            <div className={style.howToUse}>
+                *Please click the each title to download the eBook(PPTs)
+            </div>
+            &nbsp;
+            {/* Day 1 */}
+            <div className={style.day1}>
+                <div className={style.dayHeader}>
+                 <h2>Day 1: Marketing Strategy and Plan</h2>
+                 {!day1Open ? (
+                    <button onClick={day1OpenClickOpen}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 10L12 15L17 10" stroke="#000000" />
+                        </svg>
+                    </button>
+                ) : (
+                    <button onClick={day1OpenClickClose}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289L19.7071 14.2929C20.0976 14.6834 20.0976 15.3166 19.7071 15.7071C19.3166 16.0976 18.6834 16.0976 18.2929 15.7071L12 9.41421L5.70711 15.7071C5.31658 16.0976 4.68342 16.0976 4.29289 15.7071C3.90237 15.3166 3.90237 14.6834 4.29289 14.2929L11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7Z" fill="#000000"/>
+                        </svg>
+                    </button>
+                )}
+
+                </div>
+                &nbsp;
+                
+            { day1Open === true &&   
+                    <ul>
+                    <h4 className={style.daySubTitle}>HQ Highlights</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                        <Link href={'/'}><h4>Keynote Speech</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/KeynoteSpeech/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>HQ Marketing Overview</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/MarketingOverview/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4  className={style.daySubTitle}>RE Marketing Overview</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Global Digital Marketing Overview</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/GDMOverview/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Global Campaigns Overview</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/GCOverview/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>Accurion ISE Product & Marketing Strategy Overview</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>ISE Product Overview</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/ISE/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>Corporate Marketing Plan</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Corporate Marketing Overview</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/corporateMktOverview/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>All-New Global Website: How Can It Be Used?</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/newWebsiteHowToUse/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Digitization and Centralization of Park Assets</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/parkAssets/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>PPT Template Guide</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/templateGuide/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>RE Sales Technical Marketing Strategy</h4>
+                    &nbsp;
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Common Goal: To Turn Prospects Into Customers</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/commonGoal/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Technical Marketing and Product Plan</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/productPlan/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Product Marketing</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/productMarketing/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+                    </ul>}
+            </div>
+            
+            {/* Day 2 */}
+            <div className={style.day2}>
+                <div className={style.dayHeader}>
+                 <h2>Day 2: NSS Workshop and Marketing Tactic</h2>
+                 {!day2Open ? (
+                    <button onClick={day2OpenClickOpen}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 10L12 15L17 10" stroke="#000000" />
+                        </svg>
+                    </button>
+                ) : (
+                    <button onClick={day2OpenClickClose}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289L19.7071 14.2929C20.0976 14.6834 20.0976 15.3166 19.7071 15.7071C19.3166 16.0976 18.6834 16.0976 18.2929 15.7071L12 9.41421L5.70711 15.7071C5.31658 16.0976 4.68342 16.0976 4.29289 15.7071C3.90237 15.3166 3.90237 14.6834 4.29289 14.2929L11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7Z" fill="#000000"/>
+                        </svg>
+                    </button>
+                )}
+
+                </div>
+                &nbsp;
+                
+            { day2Open === true &&   
+                    <ul>
+                    <h4 className={style.daySubTitle}>Marketing Insight</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                        <Link href={'/'}><h4>Marketing Trend (from Adobe Summit)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/marketingTrend/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/bestKnownMethod/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>HQ X Regional Collaboration - PSI</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/HQRegionalCollab/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>NS Branding</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NANOscientific Rebranding</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/NANOscientificRebranding/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NANOscientific Events Video Guide</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/symposiumVideoGuide/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NANOscientific Web Digital Check-In</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/NANOscientificWeb/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>NS Marketing Tactic (40 mins)</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NANOscientific Marketing Framework Overview </h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/NSSFrameworkOverview/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Social Media & Paid Media Strategy</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/socialAndPaidMedia/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>2024 NSS Event Plan - Regional</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS America (PSI)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSI/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS Europe (PSE)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSE/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS Japan (PSJ)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSJ/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS China (PSG)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSG/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS Korea (PSK)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSK/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS Asia (PSS)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSS/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>NSS Asia 2023 Quick Review (PSIN)</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/PSIndia/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+                    </ul>}
+            </div>
+       
+       {/* Day 3 */}
+       <div className={style.day3}>
+                <div className={style.dayHeader}>
+                 <h2>Day 3: Lead and Marketo Training</h2>
+                 {!day3Open ? (
+                    <button onClick={day3OpenClickOpen}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 10L12 15L17 10" stroke="#000000" />
+                        </svg>
+                    </button>
+                ) : (
+                    <button onClick={day3OpenClickClose}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289L19.7071 14.2929C20.0976 14.6834 20.0976 15.3166 19.7071 15.7071C19.3166 16.0976 18.6834 16.0976 18.2929 15.7071L12 9.41421L5.70711 15.7071C5.31658 16.0976 4.68342 16.0976 4.29289 15.7071C3.90237 15.3166 3.90237 14.6834 4.29289 14.2929L11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7Z" fill="#000000"/>
+                        </svg>
+                    </button>
+                )}
+
+                </div>
+                &nbsp;
+                
+            { day3Open === true &&   
+                    <ul>
+                    <h4 className={style.daySubTitle}>Introduction (20mins)</h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                        <Link href={'/'}><h4>Lead Management - Marketo / Lead journey </h4></Link>
+                    </button>
+                    <button>
+                        <Link href={'eBook/marketoAndLeadJourney/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button>
+                    </li>
+
+                    &nbsp;
+                    <h4 className={style.daySubTitle}>Marketo Training and Hands-on session (5hrs ~ ) </h4>
+                    &nbsp;
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Marketo Training #1 – Event</h4></Link>
+                    </button>
+                    <button>
+                        <Link href={'eBook/training1/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button>
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Marketo Training #2 – Webinar</h4></Link>
+                    </button>
+                    <button>
+                        <Link href={'eBook/training2/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button>
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Marketo Training #3 – Lead Input</h4></Link>
+                    </button>
+                    <button>
+                        <Link href={'eBook/training3/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button>
+                    </li>
+                    </ul>}
+            </div>
+        </div>
+        
+    </div>)}

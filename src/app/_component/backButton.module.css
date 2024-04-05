@@ -1,0 +1,11 @@
+.backButton{
+    background: none;
+    border: none;
+    position: fixed;
+    left: 2%;
+    top: 5%;
+}
+.backButton:hover{
+    cursor: pointer;
+    background-color: azure;
+}

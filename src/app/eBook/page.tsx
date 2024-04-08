@@ -90,7 +90,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>HQ Marketing Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EXGGr2zVUCpAmT4zXbVKgskB1SbAqlFtrYIvApWxKZXqzw?e=xpQTaE'}><h4>HQ Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/MarketingOverview/quiz'}>
@@ -100,7 +100,7 @@ export default function Ebook() {
                     </li>
 
                     &nbsp;
-                    <h4  className={style.daySubTitle}>RE Marketing Overview</h4>
+                    <h4  className={style.daySubTitle}>Global Digital Marketing Overview​</h4>
                     &nbsp;
                     <li>
                     <button>
@@ -115,7 +115,18 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Global Campaigns Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ERwcHrse72RClBWX1eHqfUUBmoNuoPXkW2W2DXtR0nd1Lg?e=UsGhRG'}><h4>Global Campaigns Overview</h4></Link>
+                    </button>
+                    {/* <button>
+                        <Link href={'eBook/GCOverview/quiz'}>
+                        <h5>Quiz</h5>
+                        </Link>
+                    </button> */}
+                    </li>
+
+                    <li>
+                    <button>
+                    <Link href={'/'}><h4>Social Media & Paid Media Strategy​</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/GCOverview/quiz'}>
@@ -129,7 +140,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>ISE Product Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EQ18WEjqRFVIlR4OiJA2ey4B6jIgyQgLXR5GtRIjLUbOEg?e=sMENBo'}><h4>ISE Product Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/ISE/quiz'}>
@@ -143,7 +154,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Corporate Marketing Overview</h4></Link>
+                    <Link href={''}><h4>Corporate Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/corporateMktOverview/quiz'}>
@@ -165,7 +176,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Digitization and Centralization of Park Assets</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EW-g6Q9zjOtGi5OpB0GG8MoBeZULMIIuv7Q-lKOd-RyQeg?e=S7l1PX'}><h4>Digitization and Centralization of Park Assets</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/parkAssets/quiz'}>
@@ -191,7 +202,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Common Goal: To Turn Prospects Into Customers</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EX3GaGg8F8NJqTJXrBr5598BqJdH28h0oVAjeCOyv939QQ?e=QTyAXR'}><h4>Common Goal: To Turn Prospects Into Customers</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/commonGoal/quiz'}>
@@ -211,23 +222,14 @@ export default function Ebook() {
                     </button> */}
                     </li>
 
-                    <li>
-                    <button>
-                    <Link href={'/'}><h4>Product Marketing</h4></Link>
-                    </button>
-                    {/* <button>
-                        <Link href={'eBook/productMarketing/quiz'}>
-                        <h5>Quiz</h5>
-                        </Link>
-                    </button> */}
-                    </li>
+                
                     </ul>}
             </div>
             
             {/* Day 2 */}
             <div className={style.day2}>
                 <div className={style.dayHeader}>
-                 <h2>Day 2: NSS Workshop and Marketing Tactic</h2>
+                 <h2>Day 2: NANOscientific Events ​Workshop & Marketing Tactic</h2>
                  {!day2Open ? (
                     <button onClick={day2OpenClickOpen}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
@@ -309,7 +311,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NANOscientific Web Digital Check-In</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/Ed3qkyU9Ry9Csh3bF2oMYyUB905XijzAIzItyzqtJBrPcQ?e=Z8o2cm'}><h4>NANOscientific Web Digital Check-In</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/NANOscientificWeb/quiz'}>
@@ -343,7 +345,7 @@ export default function Ebook() {
                     </li>
 
                     &nbsp;
-                    <h4 className={style.daySubTitle}>2024 NSS Event Plan - Regional</h4>
+                    <h4 className={style.daySubTitle}>2024 NANOscientific Event Plan - Regional</h4>
                     &nbsp;
                     <li>
                     <button>
@@ -358,7 +360,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NSS Europe (PSE)</h4></Link>
+                    <Link href={'/'}><h4>NSF Europe (PSE)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSE/quiz'}>
@@ -380,7 +382,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NSS China (PSG)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EaGBcXi2Dw1Cq0WEDcw_XxsBcvjIhvNpqIVkwIztB7V5GQ?e=IyHBV3'}><h4>NSS China (PSG)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSG/quiz'}>

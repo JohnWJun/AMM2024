@@ -167,10 +167,10 @@ const onClickPrev = () => {
                     <h5>Re-nurturing Leads</h5>
                     &nbsp;
                     <div className={style.description}>
-                    Once customers&apos; leads are captured and saved in the Marketo DB, Marketo&apos;s nurturing program begins to manage and cultivate these leads until they reach MQL, SAL, SQL, and eventually become actual customers.
-                    This is where Marketo&apos;s powerful automated nurturing system truly shines. Marketo adjusts leads&apos; scores based on their actions on the website, such as downloading brochures, attending webinars, or making inquiries. 
-                    According to the scoring policy set by marketers, Marketo adds or subtracts from the score to determine if a lead has the potential to become a customer. Marketable leads are nurtured through various marketing methods, such as newsletters or email ads, 
-                    until they reach a certain score considered as SAL. Once a lead&apos;s score exceeds the set threshold, Marketo automatically sends these leads to the Sales team (SalesForce DB).
+                    When a potential customer is identified, they&apos;re initially labeled as a Marketing Qualified Lead (MQL) and passed to the Sales Department. 
+                    Upon reaching the Sales team, they become a Sales Accepted Lead (SAL), indicating interest in a purchase. However, this interest isn&apos;t guaranteed, and if the lead decides against purchasing, 
+                    they&apos;re recycled back to the Marketing Team for further engagement and nurturing with compelling content.
+ 
                     </div>
                     
                     </div>

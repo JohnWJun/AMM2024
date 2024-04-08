@@ -9,9 +9,10 @@
   background: none;
 }
 .parky{
-  opacity: 0.8;
+  opacity: 0.5;
   position: absolute;
-  top: 17%;
+  bottom: 5%;
+  right: 6%;
 }
 .centerLogBox{
   display: flex;
@@ -162,6 +163,7 @@
 
 .logo {
   position: relative;
+  z-index: -999;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

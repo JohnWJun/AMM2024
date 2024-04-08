@@ -43,7 +43,7 @@ export default function Entertainment() {
 
                 <div className={style.group}>
                 <h5>Group B</h5>
-                Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katija Kniffer, Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
+                Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katja Kiffner, Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
                 </div>
 
                 <div className={style.group}>
@@ -54,17 +54,15 @@ export default function Entertainment() {
             <h3>Dining</h3>
             <div className={style.bodyComponents}>
 
-                <h5>Day 1: <a href='https://hyoto.jp/menu/%e9%a3%b2%e3%81%bf%e6%94%be%e9%a1%8c%e4%bb%98%e3%81%8d-%e4%ba%ac%e9%83%bd%e3%81%bd%e3%83%bc%e3%81%8f-%e5%87%ba%e6%b1%81%e3%81%97%e3%82%83%e3%81%b6%e4%bc%9a%e5%b8%ad-%e7%b4%ab%e8%8d%89/'>Hyoto Shibuya​</a>​</h5>
+                <h5>Day 1: <a href='https://tabelog.com/tokyo/A1302/A130201/13156146/'>Okonomiyaki and Teppanyaki Osaka Messe Bear Tokyo​</a>​</h5>
                 <div className={style.bodyComponents}>
-                <h5>Kaiseki (traditional multi-course Japanese dinner)</h5>
-                <h5>- Brand Pork Dashi Shabu Kaiseki Murasaki</h5>
-                <h5>- Vegan Kaiseki</h5>​
+                <h5>Okonomiyaki</h5>
                 </div>
                 <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
-                    src="/dinnerDay2.png"
-                    alt="Dinner Day2"
+                    className={style.image}
+                    src="/dinnerDay1.jpg"
+                    alt="Dinner Day1"
                     width={700}
                     height={500}
                     priority
@@ -79,7 +77,7 @@ export default function Entertainment() {
                 </div>
                 <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/dinnerDay2.png"
                     alt="Dinner Day2"
                     width={700}
@@ -96,7 +94,7 @@ export default function Entertainment() {
                 <strong>Schedule:</strong> ~21:30
                 <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/ShybuyaSky.png"
                     alt="Shybuya Sky"
                     width={900}

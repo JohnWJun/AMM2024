@@ -187,7 +187,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>PPT Template Guide</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EQ8CFNFb1glJvDrJ_-A-I_gBZSr8lsTB3-l1oi1lv7Vvig?e=LnQ5pl'}><h4>PPT Template Guide</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/templateGuide/quiz'}>
@@ -360,7 +360,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NSF Europe (PSE)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EY1s6UTgj65HrNnNV6fxYtYB3k_6tO_2Sn1y960RMQ1Log?e=utzJuD'}><h4>NSF Europe (PSE)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSE/quiz'}>
@@ -371,7 +371,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NSS Japan (PSJ)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EZMLpETnkXFCrr1RQRPLL8gBl3fuVV-jUknuAFDZZUPFFA?e=DPMeEJ'}><h4>NSS Japan (PSJ)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSJ/quiz'}>
@@ -393,7 +393,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NSS Korea (PSK)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ESCuvEBE9p5LvGKwb-yRregByzbDJWxeL4MGgwPNxJJNwQ?e=XgmrTX'}><h4>NSS Korea (PSK)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSK/quiz'}>

@@ -42,7 +42,7 @@ export default function Location() {
 
                 <div className={style.group}>
                 <h5>Group B</h5>
-                Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katija Kniffer,  Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
+                Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katja Kiffner,  Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
                 </div>
 
                 <div className={style.group}>

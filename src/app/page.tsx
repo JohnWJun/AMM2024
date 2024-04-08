@@ -11,23 +11,16 @@ export default function Home() {
       
       <div className={styles.center}>
       <div className={styles.centerLogBox}>
-      <Image
-          className={styles.parky}
-          src="/parky.svg"
-          alt="Parky"
-          width={60}
-          height={60}
-          priority
-        />
+      
         <Image
           className={styles.logo}
-          src="/parksystemsLogo.svg"
+          src="/parksystemsLogo.jpg"
           alt="Park Logo"
-          width={280}
+          width={180}
           height={137}
-          priority
         /> 
         
+      
       </div>
         <h1>2024 Global Marketing Meeting <br/>In Japan</h1>
         
@@ -35,7 +28,8 @@ export default function Home() {
   
       </div>
       <div className={styles.upperMenubar}>
-      <button className={styles.marketo}> 
+      
+      <button className={styles.marketo}>  
       <Link href="/training" >
       <Image
           src="/Marketo_logo.png"
@@ -58,6 +52,7 @@ export default function Home() {
         />
         </Link>
         </button>
+       
         </div>
       <div className={styles.grid}>
         <Link
@@ -77,7 +72,7 @@ export default function Home() {
           <h2>
             Schedule <span>-&gt;</span>
           </h2>
-          <p>Check the programs & schedule</p>
+          <p>Check the agendas & schedule</p>
         </Link>
 
         <Link
@@ -139,7 +134,14 @@ export default function Home() {
           </h2>
           <p>Please leave a meaningful message for improvement</p>
         </Link>
-        
+          <Image
+          className={styles.parky}
+          src="/parky.svg"
+          alt="Parky"
+          width={30}
+          height={30}
+          priority
+        />
         
     </div>
    

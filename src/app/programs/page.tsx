@@ -23,21 +23,27 @@ export default function Programs() {
             priority
             />
             </div>
+            
             <div className={style.scheduleContainer}>
+            <div>
+                <button>
+                    <Link href={"https://parkafm-my.sharepoint.com/:b:/g/personal/cherie_jung_parksystems_com/ESZusovuNSpNi9Jz9Wzty_wB6cy4NA7XZv2lgPRnuKwKLg?e=IIsZGr"}>Download</Link>
+                </button>
+            </div>
                <h2> Day 1 </h2>
             <div className={style.day}>
-            <a href={'/GMM2024_Timetable_Fin-1.png'}>
+            <a href={'/GMM2024_Timetable_Fin-1.jpg'}>
                 <Image
-                src="/GMM2024_Timetable_Fin-1.png"
+                src="/GMM2024_Timetable_Fin-1.jpg"
                 alt="timeTable1"
                 width={600}
                 height={800}
                 priority
                 />
             </a>
-            <a href={'/GMM2024_Timetable_Fin-2.png'}>
+            <a href={'/GMM2024_Timetable_Fin-2.jpg'}>
                 <Image
-                src="/GMM2024_Timetable_Fin-2.png"
+                src="/GMM2024_Timetable_Fin-2.jpg"
                 alt="timeTable1"
                 width={600}
                 height={800}
@@ -50,18 +56,18 @@ export default function Programs() {
             <div className={style.scheduleContainer}>
                <h2> Day 2 </h2>
             <div className={style.day}>
-            <a href={'/GMM2024_Timetable_Fin-3.png'}>
+            <a href={'/GMM2024_Timetable_Fin-3.jpg'}>
             <Image
-            src="/GMM2024_Timetable_Fin-3.png"
+            src="/GMM2024_Timetable_Fin-3.jpg"
             alt="timeTable1"
             width={600}
             height={800}
             priority
             />
             </a>
-            <a href={'/GMM2024_Timetable_Fin-4.png'}>
+            <a href={'/GMM2024_Timetable_Fin-4.jpg'}>
             <Image
-            src="/GMM2024_Timetable_Fin-4.png"
+            src="/GMM2024_Timetable_Fin-4.jpg"
             alt="timeTable1"
             width={600}
             height={800}
@@ -74,9 +80,9 @@ export default function Programs() {
             <div className={style.scheduleContainer}>
                <h2> Day 3 </h2>
             <div className={style.day}>
-            <a href={'/GMM2024_Timetable_Fin-5.png'}>
+            <a href={'/GMM2024_Timetable_Fin-5.jpg'}>
             <Image
-            src="/GMM2024_Timetable_Fin-5.png"
+            src="/GMM2024_Timetable_Fin-5.jpg"
             alt="timeTable1"
             width={600}
             height={800}

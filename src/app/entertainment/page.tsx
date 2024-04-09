@@ -51,16 +51,19 @@ export default function Entertainment() {
                 Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
                 </div>
             </div>
-            <h3>Dining</h3>
+            <br/>
+            <br/>
+            <h3>Day 1: Welcome Dinner</h3>
             <div className={style.bodyComponents}>
 
-                <h5>Day 1: <a href='https://tabelog.com/tokyo/A1302/A130201/13156146/'>Okonomiyaki and Teppanyaki Osaka Messe Bear Tokyo​</a>​</h5>
+                <h5><a href='https://tabelog.com/tokyo/A1302/A130201/13156146/'>Okonomiyaki and Teppanyaki Osaka Messe Bear Tokyo​</a>​</h5>
                 <div className={style.bodyComponents}>
                 <p>Menu:</p> 
                 <h5>Okonomiyaki</h5>
                 </div>
                 <Link href="https://maps.app.goo.gl/nHjjdge4TFXVtsaL6">
                 <strong>Address:</strong> 100-6290Marunouchi1-11-1, Pacific Century Place Marunouchi B1F
+                
                 <Image
                         className={style.icon}
                         src="/map.png"
@@ -81,7 +84,11 @@ export default function Entertainment() {
                     />
                 </div>
 
-                <h5>Day 2: <a href='https://hyoto.jp/menu/%e9%a3%b2%e3%81%bf%e6%94%be%e9%a1%8c%e4%bb%98%e3%81%8d-%e4%ba%ac%e9%83%bd%e3%81%bd%e3%83%bc%e3%81%8f-%e5%87%ba%e6%b1%81%e3%81%97%e3%82%83%e3%81%b6%e4%bc%9a%e5%b8%ad-%e7%b4%ab%e8%8d%89/'>Hyoto Shibuya​</a>​</h5>
+                
+            </div>
+            <h3>Day 2: Shibuya Sky</h3>
+            <div className={style.bodyComponents}>
+            <h5>Dinner Site: <a href='https://hyoto.jp/menu/%e9%a3%b2%e3%81%bf%e6%94%be%e9%a1%8c%e4%bb%98%e3%81%8d-%e4%ba%ac%e9%83%bd%e3%81%bd%e3%83%bc%e3%81%8f-%e5%87%ba%e6%b1%81%e3%81%97%e3%82%83%e3%81%b6%e4%bc%9a%e5%b8%ad-%e7%b4%ab%e8%8d%89/'>Hyoto Shibuya​</a>​</h5>
                 <div className={style.bodyComponents}>
                 <h5>Kaiseki (traditional multi-course Japanese dinner)</h5>
                 <p>Menu: </p>
@@ -109,9 +116,6 @@ export default function Entertainment() {
                     priority
                     />
                     </div>
-            </div>
-            <h3>Activity</h3>
-            <div className={style.bodyComponents}>
                     
                 <h5><a href='https://www.shibuya-scramble-square.com.e.apy.hp.transer.com/sky/'>Shibuya Sky</a></h5>
                 <strong>Admission time:</strong> 19:40-20:00​<br/>
@@ -140,7 +144,11 @@ export default function Entertainment() {
 
                     
             </div>
-            <h3>Schedule</h3>
+            <br/>
+            <br/>
+            <h5>Schedule:</h5>
+            <br/>
+            <br/>
             <div className={style.bodyComponents}>
         
             <div className={style.group}>

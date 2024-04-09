@@ -28,29 +28,7 @@ export default function Location() {
                     />
         </div>
     <div className={style.body}>
-            <h3>Groups</h3>
-            
-            <div className={style.bodyComponents}>
-                <div className={style.group}>
-                <h5>Event Running Team</h5>
-                Hitomi Makabe, Sun Ham, Cherie Jung, John Jun, Lina Ma, Soo Lee, Judy Kim, Jack Cha, and Eric Kim
-                </div>
-
-                <div className={style.group}>
-                <h5>Group A</h5>
-                Insu Kim, Xiaowei Tian, Yuya Wagatsuma, Kenneth Kang, Hyein Kim, Katie Yang, Raina Lee, Elizabeth Martinez, and Caleb Chu 
-                </div>
-
-                <div className={style.group}>
-                <h5>Group B</h5>
-                Takahiro Fujimoto, Shin Matsuda, Yi-Chen Lu, Haichao Guo, Katja Kiffner,  Alejandro Bonilla, Brian Kim, Vamsi Bendalam, and Peter Park
-                </div>
-
-                <div className={style.group}>
-                <h5>Group C</h5>
-                Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
-                </div>
-            </div>
+           
             <br/>
                 <br/>
             <h3>Park Systems Japan Inc.</h3>

@@ -1,6 +1,6 @@
 "use client";
 import {usePathname} from 'next/navigation';
-import style from './qnA.module.css';
+import style from './vote.module.css';
 import BackButton from '@/app/_component/BackButton';
 import Image from 'next/image';
 

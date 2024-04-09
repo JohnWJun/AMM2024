@@ -14,12 +14,19 @@ export default function Home() {
       
         <Image
           className={styles.logo}
-          src="/parksystemsLogo.jpg"
+          src="/parksystemsLogo.svg"
           alt="Park Logo"
-          width={180}
-          height={137}
+          width={200}
+          height={157}
+          priority
         /> 
-        
+         <Image
+          className={styles.parky}
+          src="/parky.svg"
+          alt="Parky"
+          width={70}
+          height={70}
+        />
       
       </div>
         <h1>2024 Global Marketing Meeting <br/>In Japan</h1>
@@ -134,14 +141,7 @@ export default function Home() {
           </h2>
           <p>Please leave a meaningful message for improvement</p>
         </Link>
-          <Image
-          className={styles.parky}
-          src="/parky.svg"
-          alt="Parky"
-          width={30}
-          height={30}
-          priority
-        />
+         
         
     </div>
    

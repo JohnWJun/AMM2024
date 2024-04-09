@@ -9,10 +9,10 @@
   background: none;
 }
 .parky{
-  opacity: 0.5;
+  opacity: 0.8;
   position: absolute;
-  bottom: 5%;
-  right: 6%;
+  z-index: -999;
+  top: 12%;
 }
 .centerLogBox{
   display: flex;
@@ -163,7 +163,7 @@
 
 .logo {
   position: relative;
-  z-index: -999;
+
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -268,13 +268,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
 
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
 }
 
 @keyframes rotate {

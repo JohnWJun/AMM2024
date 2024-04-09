@@ -20,13 +20,6 @@ export default function Home() {
           height={157}
           priority
         /> 
-         <Image
-          className={styles.parky}
-          src="/parky.svg"
-          alt="Parky"
-          width={70}
-          height={70}
-        />
       
       </div>
         <h1>2024 Global Marketing Meeting <br/>In Japan</h1>
@@ -37,27 +30,28 @@ export default function Home() {
       <div className={styles.upperMenubar}>
       
       <button className={styles.marketo}>  
-      <Link href="/training" >
+      <Link href="/training" title="Marketo Training Session">
       <Image
           src="/Marketo_logo.png"
           alt="Marketo Logo"
-          width={50}
-          height={20}
+          width={70}
+          height={30}
           priority
         />
         </Link>
         </button>
 
         <button className={styles.vote}> 
-      <Link href="/vote" >
+      <Link href="/vote" title="Vote for Best Performance Award Winner">
       <Image
           src="/vote.svg"
           alt="vote Icon"
-          width={30}
-          height={30}
+          width={50}
+          height={50}
           priority
         />
         </Link>
+        
         </button>
        
         </div>
@@ -141,10 +135,81 @@ export default function Home() {
           </h2>
           <p>Please leave a meaningful message for improvement</p>
         </Link>
-         
+      </div>
+      
+       <div className={styles.footer}>
+        <div className={styles.contactUs}>
+        <h5>Contact Us</h5>
+        <div className={styles.contact}>
+          <p><strong>Cherie Jung:</strong> 8210 6573 9295</p>
+          
+          <Image
+          className={styles.icon}
+          src="/kakaoIcon.png"
+          alt="Kakao"
+          width={20}
+          height={20}
+          priority
+        />
+        <div className={styles.kaKao}>
+        <Image
+          src="/cherieKakao.png"
+          alt="cherie Kakao"
+          width={340}
+          height={400}
+          priority
+        />
+        </div>
+        </div>
+        <div className={styles.contact}>
+          <p><strong>Sun Ham: </strong> 8210 9245 0553</p>
+          
+          <Image
+          className={styles.icon}
+          src="/kakaoIcon.png"
+          alt="Kakao"
+          width={20}
+          height={20}
+          priority
+        />
+        <div className={styles.kaKao}>
+        <Image
+          src="/sunKakao.png"
+          alt="Sun Kakao"
+          width={340}
+          height={400}
+          priority
+        />
+        </div>
+      
+        </div>
         
-    </div>
-   
+        <div className={styles.contact}>
+          <p><strong>Hitomi Makabe: </strong> 8190 9018 4554</p>
+          
+          <Image
+          className={styles.icon}
+          src="/kakaoIcon.png"
+          alt="Kakao"
+          width={20}
+          height={20}
+          priority
+        />
+        <div className={styles.kaKao}>
+        <Image
+          src="/hitomiKakao.jpg"
+          alt="hitomi Kakao "
+          width={340}
+          height={400}
+          priority
+        />
+        </div>
+      
+        </div>
+
+        </div>
+        </div>
+        
     </main>
   );
 }

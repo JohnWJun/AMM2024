@@ -4,7 +4,7 @@ import style from '@/app/entertainment/entertainment.module.css';
 import BackButton from '@/app/_component/BackButton';
 import Image from 'next/image';
 import {  Table,  TableHeader,  TableBody,  TableColumn,  TableRow,  TableCell} from "@nextui-org/table";
-
+import Link from "next/link";
 
 export default function Entertainment() {
     const pathname = usePathname();
@@ -56,8 +56,20 @@ export default function Entertainment() {
 
                 <h5>Day 1: <a href='https://tabelog.com/tokyo/A1302/A130201/13156146/'>Okonomiyaki and Teppanyaki Osaka Messe Bear Tokyo​</a>​</h5>
                 <div className={style.bodyComponents}>
+                <p>Menu:</p> 
                 <h5>Okonomiyaki</h5>
                 </div>
+                <Link href="https://maps.app.goo.gl/nHjjdge4TFXVtsaL6">
+                <strong>Address:</strong> 100-6290Marunouchi1-11-1, Pacific Century Place Marunouchi B1F
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
                 <div className={style.imgBox}>
                     <Image
                     className={style.image}
@@ -72,8 +84,20 @@ export default function Entertainment() {
                 <h5>Day 2: <a href='https://hyoto.jp/menu/%e9%a3%b2%e3%81%bf%e6%94%be%e9%a1%8c%e4%bb%98%e3%81%8d-%e4%ba%ac%e9%83%bd%e3%81%bd%e3%83%bc%e3%81%8f-%e5%87%ba%e6%b1%81%e3%81%97%e3%82%83%e3%81%b6%e4%bc%9a%e5%b8%ad-%e7%b4%ab%e8%8d%89/'>Hyoto Shibuya​</a>​</h5>
                 <div className={style.bodyComponents}>
                 <h5>Kaiseki (traditional multi-course Japanese dinner)</h5>
+                <p>Menu: </p>
                 <h5>- Brand Pork Dashi Shabu Kaiseki Murasaki</h5>
                 <h5>- Vegan Kaiseki</h5>​
+                <Link href="https://maps.app.goo.gl/trkTYAS8zb2TJPU57">
+                <strong>Address:</strong> Kyoto Hyoto Shabu Shabu Shibuya, 東急プラザ渋谷（渋谷フクラス 7F 1 Chome-2-3 Dogenzaka, Shibuya City, Tokyo 150-0043, Japan
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
                 </div>
                 <div className={style.imgBox}>
                     <Image
@@ -102,6 +126,17 @@ export default function Entertainment() {
                     priority
                     />
                 </div>
+                <Link href="https://maps.app.goo.gl/2xpUvWi59E5iQKqs8">
+                <strong>Address:</strong> 150-0002Shibuya2-24-12 Shibuya
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
 
                     
             </div>

@@ -46,15 +46,61 @@
 .vote {
 
   opacity: 0.8; 
-  padding: 10px 10px ;
+  padding: 10px 10px 8px 10px;
   border: none;
   background: none;
 }
 .vote:hover{
-  padding: 10px 10px ;
+  padding: 10px 10px 8px 10px;
   border: none;
   border-radius: 100px;
   background-color: rgb(228, 228, 227);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  border-radius: 50px;
+  flex-direction: row;
+  justify-content: flex-start; /* Change to flex-start for left alignment */
+  margin-top:150px;
+  padding: 3rem;
+  background-color: rgb(247, 255, 255);
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.contactUs p {
+  margin-top: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Change to flex-start for left alignment */
+  align-items: center;
+}
+
+.kaKao {
+  display: none;
+  position: fixed;
+  padding: 20px;
+  background-color: cornsilk;
+  border-radius: 5px;
+  left: 45%;
+  bottom: 10%;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.icon:hover + .kaKao {
+  display: block;
 }
 
 .description {

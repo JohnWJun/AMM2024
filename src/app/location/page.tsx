@@ -3,6 +3,7 @@ import {usePathname} from 'next/navigation';
 import style from '@/app/location/location.module.css';
 import BackButton from '@/app/_component/BackButton';
 import Image from 'next/image';
+import Link from "next/link";
 
 
 export default function Location() {
@@ -53,6 +54,18 @@ export default function Location() {
             <h3>Accommodation</h3>
             <div className={style.bodyComponents}>
                 <h5>Sotetsu Fressa-in Kanda Otemachi​</h5>
+                <Link href="https://maps.app.goo.gl/9WSNnDQb9DVsa2Bp7">
+                <strong>Address:</strong> 101-0047Tokyo2-8-4 Uchikanda, Chiyoda-ku
+            
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
                 <div className={style.imgBox}>
                     <Image
                     className={style.logo}
@@ -63,12 +76,25 @@ export default function Location() {
                     priority
                     />
                     </div>
+                   
             </div>
             <h3>Venue</h3>
             <div className={style.bodyComponents}>
                     
                 <h5>Otemachi Place Hall & Conference</h5>
-                <strong>Address:</strong> 2-3-1 Otemachi, Chiyoda-ku, Tokyo​<br/>
+                <Link href="https://maps.app.goo.gl/EbZXnU4zkqSTsxJf8">
+                <strong>Address:</strong> 2-3-1 Otemachi, Chiyoda-ku, Tokyo​
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
+                <br/>
+                <br/>
                 <strong>Meeting Room:</strong> Conference Room 105
                 <div className={style.imgBox}>
                     <Image
@@ -81,6 +107,20 @@ export default function Location() {
                     />
                 </div>
 
+                <h5>Park Systems Japan Inc.</h5>
+                <Link href="https://maps.app.goo.gl/YcXf7aQTrX4Pgr5p6">
+                <strong>Address: </strong> 1-17-1 Kanda Nishiki-cho, Chiyoda-ku,
+Tokyo 101-0054, Japan
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
+                <br/>
                     
             </div>
             <h3>Access</h3>
@@ -150,9 +190,9 @@ export default function Location() {
             </div>
             <div className={style.group}>
             <h5>Accommodation - Venue</h5>
-            <strong>Access:</strong> 10-minute walk to Venue
-            <strong>Meeting Place:</strong> 1F Lobby​
-            <strong>Meeting Time:</strong> Day 1: 8:35, Day 2: 9:00, Day3: 9:00
+            <strong>Access:</strong> 10-minute walk to Venue <br/><br/>
+            <strong>Meeting Place:</strong> 1F Lobby​ <br/><br/>
+            <strong>Meeting Time:</strong> Day 1: 8:35, Day 2: 9:00, Day3: 9:00<br/><br/>
                     <div className={style.imgBox}>
                     <Image
                     className={style.logo}
@@ -166,6 +206,8 @@ export default function Location() {
                     
            
             </div>
+
+            
         </div>             
     </div>
 </div>

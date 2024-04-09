@@ -42,14 +42,16 @@ export default function Quiz() {
                 <div className={style.buttonSection}>
                         {!day1Open &&
                                 <button onClick={day1OpenClickOpen}>
-                                    Day1 Menu
+                                    Day1
                                 </button>
                             }
                             </div>
                     <div className={style.formSection}>
                     {day1Open && 
-                    
+                    <>
+                     <h2>Day1 Menu:</h2>
                         <div className={style.menuBox}>
+                           
                             <div className={style.optionBox}>
                                 <h4>Option 1: Fries Combo Lunch box</h4>
                                 <Image
@@ -62,7 +64,7 @@ export default function Quiz() {
                                 />
                                 </div>
                                 <div className={style.optionBox}>
-                                <h4>Option 2: Silver salmon grilled with salt & mixed fried lunch box</h4>
+                                <h4>Option 2: Silver Salmon Grilled with Salt & Mixed Fried Lunch Box</h4>
                                 <Image
                                 className={style.menu}
                                 src="/day1lunch2.jpg"
@@ -85,19 +87,21 @@ export default function Quiz() {
                                 </div>
     
                                 </div>
+                                </>
                         }
                     </div>
         
                     <div className={style.buttonSection}>
                         {!day2Open &&
                                 <button onClick={day2OpenClickOpen}>
-                                    Day2 Menu
+                                    Day2
                                 </button>
                             }
                             </div>
                     <div className={style.formSection}>
                     {day2Open && 
-                    
+                    <>
+                    <h2>Day2 Menu:</h2>
                         <div className={style.menuBox}>
                             <div className={style.optionBox}>
                                 <h4>Option 1: Deep-fried and Grilled Salmon Lunch Box</h4>
@@ -134,6 +138,7 @@ export default function Quiz() {
                                 </div>
                 
                                 </div>
+                                </>
                         }
                     </div>
                 

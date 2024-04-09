@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 export default function Quiz() {
 
-    const [day1Open, setDay1Open] = useState(true);
+    const [day1Open, setDay1Open] = useState(false);
     const [day2Open, setDay2Open] = useState(false);
 
 

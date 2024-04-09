@@ -51,6 +51,23 @@ export default function Location() {
                 Dr. Kim, Shun Okano, Chie Goto, Sang-Joon Cho, Jessica Kang, Eileen Shin, Cathy Lee, Xun Hao Chok, and Primrose Arcillas
                 </div>
             </div>
+            <br/>
+                <br/>
+            <h3>Park Systems Japan Inc.</h3>
+                <Link href="https://maps.app.goo.gl/YcXf7aQTrX4Pgr5p6">
+                <strong>Address: </strong> 1-17-1 Kanda Nishiki-cho, Chiyoda-ku,
+                Tokyo 101-0054, Japan
+                <Image
+                        className={style.icon}
+                        src="/map.png"
+                        alt="map icon"
+                        width={20}
+                        height={20}
+                        priority
+                        />
+                </Link>
+                <br/>
+                <br/>
             <h3>Accommodation</h3>
             <div className={style.bodyComponents}>
                 <h5>Sotetsu Fressa-in Kanda Otemachi​</h5>
@@ -78,6 +95,8 @@ export default function Location() {
                     </div>
                    
             </div>
+            <br/>
+                <br/>
             <h3>Venue</h3>
             <div className={style.bodyComponents}>
                     
@@ -107,22 +126,12 @@ export default function Location() {
                     />
                 </div>
 
-                <h5>Park Systems Japan Inc.</h5>
-                <Link href="https://maps.app.goo.gl/YcXf7aQTrX4Pgr5p6">
-                <strong>Address: </strong> 1-17-1 Kanda Nishiki-cho, Chiyoda-ku,
-Tokyo 101-0054, Japan
-                <Image
-                        className={style.icon}
-                        src="/map.png"
-                        alt="map icon"
-                        width={20}
-                        height={20}
-                        priority
-                        />
-                </Link>
+                
                 <br/>
                     
             </div>
+            <br/>
+                <br/>
             <h3>Access</h3>
         <div className={style.bodyComponents}>
             <h5>Haneda Airport - Kanda Station</h5>

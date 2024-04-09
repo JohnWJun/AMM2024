@@ -141,7 +141,7 @@ export default function Home() {
         <div className={styles.contactUs}>
         <h5>Contact Us</h5>
         <div className={styles.contact}>
-          <p><strong>Cherie Jung:</strong> 8210 6573 9295</p>
+          <p><strong>Cherie Jung:</strong> +8210 6573 9295</p>
           
           <Image
           className={styles.icon}
@@ -162,7 +162,7 @@ export default function Home() {
         </div>
         </div>
         <div className={styles.contact}>
-          <p><strong>Sun Ham: </strong> 8210 9245 0553</p>
+          <p><strong>Sun Ham: </strong> +8210 9245 0553</p>
           
           <Image
           className={styles.icon}
@@ -185,7 +185,7 @@ export default function Home() {
         </div>
         
         <div className={styles.contact}>
-          <p><strong>Hitomi Makabe: </strong> 8190 9018 4554</p>
+          <p><strong>Hitomi Makabe: </strong> +8190 9018 4554</p>
           
           <Image
           className={styles.icon}

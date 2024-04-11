@@ -129,6 +129,7 @@ export default function Location() {
             <div className={style.group}>
                 <h5>Route2: Bus – Train (total 1150 Yen)​</h5>
                 ※ need to purchase bus ticket in advance <br/><br/>
+                ※ cash or IC card only acceptable (No Credit Card) <br/><br/>
                 <button><a href='https://www.keikyu-bus.co.jp/en/airport/h-tokyo/'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 -2 20 20">
                 <g id="bus-left" transform="translate(-2 -3.997)">
@@ -179,7 +180,7 @@ export default function Location() {
             <h5>Accommodation - Venue</h5>
             <strong>Access:</strong> 10-minute walk to Venue <br/><br/>
             <strong>Meeting Place:</strong> 1F Lobby​ <br/><br/>
-            <strong>Meeting Time:</strong> Day 1: 8:35, Day 2: 9:00, Day3: 9:00<br/><br/>
+            <strong>Meeting Time:</strong> Day 1: 9:30, Day 2: 9:00, Day3: 9:00<br/><br/>
                     <div className={style.imgBox}>
                     <Image
                     className={style.logo}

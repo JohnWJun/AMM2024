@@ -114,7 +114,7 @@ export default function Location() {
         <div className={style.bodyComponents}>
             <h5>Haneda Airport - Kanda Station</h5>
             <div className={style.group}>
-                <h5>Route1: Train (total 670 Won)​</h5>
+                <h5>Route1: Train (total 670 Yen)​</h5>
                  
                  <Image
                     className={style.logo}
@@ -127,7 +127,7 @@ export default function Location() {
             </div>
 
             <div className={style.group}>
-                <h5>Route2: Bus – Train (total 1150 Won)​</h5>
+                <h5>Route2: Bus – Train (total 1150 Yen)​</h5>
                 ※ need to purchase bus ticket in advance <br/><br/>
                 <button><a href='https://www.keikyu-bus.co.jp/en/airport/h-tokyo/'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 -2 20 20">
@@ -149,7 +149,7 @@ export default function Location() {
             </div>
 
             <div className={style.group}>
-                <h5>Route3: Taxi (total approx. 7500 Won)​​</h5>
+                <h5>Route3: Taxi (total approx. 7500 Yen)​​</h5>
             </div>
             <div className={style.group}>
             <h5>Kanda station - Accommodation</h5>

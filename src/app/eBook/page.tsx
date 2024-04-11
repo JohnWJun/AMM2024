@@ -79,7 +79,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                        <Link href={'/'}><h4>Keynote Speech</h4></Link>
+                        <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EcRsQ66gHjhJowIfgAK2-mUBUV5LI3v0RCfmfrtjxDfDiA?e=Yjs1xp'}><h4>Keynote Speech</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/KeynoteSpeech/quiz'}>
@@ -136,11 +136,11 @@ export default function Ebook() {
                     </li>
 
                     &nbsp;
-                    <h4 className={style.daySubTitle}>Accurion ISE Product & Marketing Strategy Overview</h4>
+                    <h4 className={style.daySubTitle}>Accurion Product & Marketing Overview</h4>
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EQ18WEjqRFVIlR4OiJA2ey4B6jIgyQgLXR5GtRIjLUbOEg?e=sMENBo'}><h4>ISE Product Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EQ18WEjqRFVIlR4OiJA2ey4B6jIgyQgLXR5GtRIjLUbOEg?e=sMENBo'}><h4>ISE Product & Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/ISE/quiz'}>
@@ -187,7 +187,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EQ8CFNFb1glJvDrJ_-A-I_gBZSr8lsTB3-l1oi1lv7Vvig?e=LnQ5pl'}><h4>PPT Template Guide</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EfOXrOD6trZGmyB8bBzUkOIBCC5oQP11vq94Wdn7zPqUEw?e=xm3C5j'}><h4>PPT Template Guide</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/templateGuide/quiz'}>
@@ -213,7 +213,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Technical Marketing and Product Plan</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EbKGKmOE7clKiVPraWCSwRYBUJRj293ZZZjK9TJJyAhNPQ?e=6uuLkM'}><h4>Technical Marketing and Product Plan</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/productPlan/quiz'}>
@@ -264,7 +264,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EXB_M4HK_GxIs7SYt4sOVF0Bp_lPnEfQ5d0MtLkUos94tw?e=ujX8wL'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/bestKnownMethod/quiz'}>
@@ -285,7 +285,7 @@ export default function Ebook() {
                     </li>
 
                     &nbsp;
-                    <h4 className={style.daySubTitle}>NS Branding</h4>
+                    <h4 className={style.daySubTitle}>NANOscientific Branding</h4>
                     &nbsp;
                     <li>
                     <button>
@@ -320,8 +320,12 @@ export default function Ebook() {
                     </button> */}
                     </li>
 
+                 
+                   
+                    
+
                     &nbsp;
-                    <h4 className={style.daySubTitle}>NS Marketing Tactic (40 mins)</h4>
+                    <h4 className={style.daySubTitle}>2024 NANOscientific Event Plan - Regional</h4>
                     &nbsp;
                     <li>
                     <button>
@@ -333,20 +337,6 @@ export default function Ebook() {
                         </Link>
                     </button> */}
                     </li>
-                    <li>
-                    <button>
-                    <Link href={'/'}><h4>Social Media & Paid Media Strategy</h4></Link>
-                    </button>
-                    {/* <button>
-                        <Link href={'eBook/socialAndPaidMedia/quiz'}>
-                        <h5>Quiz</h5>
-                        </Link>
-                    </button> */}
-                    </li>
-
-                    &nbsp;
-                    <h4 className={style.daySubTitle}>2024 NANOscientific Event Plan - Regional</h4>
-                    &nbsp;
                     <li>
                     <button>
                     <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EY2lfebD9-lMuE-k9MkKFLEBnOXBLLs8UGEpsgfHZX-DXA?e=f9gG0Y'}><h4>NSS America (PSI)</h4></Link>
@@ -429,7 +419,7 @@ export default function Ebook() {
        {/* Day 3 */}
        <div className={style.day3}>
                 <div className={style.dayHeader}>
-                 <h2>Day 3: Lead and Marketo Training</h2>
+                 <h2>Day 3: Lead & Marketo Training</h2>
                  {!day3Open ? (
                     <button onClick={day3OpenClickOpen}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
@@ -449,7 +439,7 @@ export default function Ebook() {
                 
             { day3Open === true &&   
                     <ul>
-                    <h4 className={style.daySubTitle}>Introduction (20mins)</h4>
+                    <h4 className={style.daySubTitle}>Marketo Introduction</h4>
                     &nbsp;
                     <li>
                     <button>
@@ -463,11 +453,11 @@ export default function Ebook() {
                     </li>
 
                     &nbsp;
-                    <h4 className={style.daySubTitle}>Marketo Training and Hands-on session (5hrs ~ ) </h4>
+                    <h4 className={style.daySubTitle}>Marketo Training</h4>
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Marketo Training #1 – Event</h4></Link>
+                    <Link href={'/'}><h4>Marketo Training Session #1 – Event</h4></Link>
                     </button>
                     <button>
                         <Link href={'eBook/training1/quiz'}>
@@ -478,7 +468,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EfrxIk2PNo1Ftzz_b5IpQSABL-FH3HAqm3AXLK9oGSmOQQ?e=IhcUPK'}><h4>Marketo Training #2 – Webinar</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EfrxIk2PNo1Ftzz_b5IpQSABL-FH3HAqm3AXLK9oGSmOQQ?e=IhcUPK'}><h4>Marketo Training Session #2 – Webinar</h4></Link>
                     </button>
                     <button>
                         <Link href={'eBook/training2/quiz'}>
@@ -489,7 +479,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Marketo Training #3 – Marketing Performance Insight</h4></Link>
+                    <Link href={'/'}><h4>Marketo Training Session #3 – Marketing Performance Insight</h4></Link>
                     </button>
                     <button>
                         <Link href={'eBook/training3/quiz'}>

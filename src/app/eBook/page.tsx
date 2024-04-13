@@ -79,7 +79,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                        <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EcRsQ66gHjhJowIfgAK2-mUBUV5LI3v0RCfmfrtjxDfDiA?e=Yjs1xp'}><h4>Keynote Speech</h4></Link>
+                        <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EWK51mTYViRLvBCpuFRhoAwBuF1KO42uHs7q8DCaK9eWnw?e=dafjIH'}><h4>Keynote Speech</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/KeynoteSpeech/quiz'}>
@@ -104,7 +104,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Global Digital Marketing Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EYtDHBEyfeNEm1_x-_u9TYQB2cb0qbbAsXWPGyEtiNm3PA?e=LncQPa'}><h4>Global Digital Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/GDMOverview/quiz'}>
@@ -213,7 +213,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EbKGKmOE7clKiVPraWCSwRYBUJRj293ZZZjK9TJJyAhNPQ?e=6uuLkM'}><h4>Technical Marketing and Product Plan</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EYXF9ynyJKJJg_G7JqIh9jIBrZgM9-UE74WfbKtSPIfMGA?e=40Qwvd'}><h4>Technical Marketing and Product Plan</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/productPlan/quiz'}>
@@ -300,7 +300,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NANOscientific Events Video Guide</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ER-uJomXDzNOpJ3G4l1pMHEBcH5Fi7Os15noqR6obWpONw?e=KEuR8G'}><h4>NANOscientific Events Video Guide</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/symposiumVideoGuide/quiz'}>
@@ -329,7 +329,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NANOscientific Marketing Framework Overview </h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EWelRVLfhvROosKieqVaIeABDrCRUSHN9baNqJ-7_9BUdA?e=vNLZQP'}><h4>NANOscientific Marketing Framework Overview </h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/NSSFrameworkOverview/quiz'}>
@@ -394,7 +394,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NSS Asia (PSS)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ETIO2zuU4dBMlHhsmx48ag4BECz5wEPTbOd180Z4Emq1LA?e=mCz8BV'}><h4>NSS Asia (PSS)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSS/quiz'}>

@@ -150,12 +150,27 @@ const onClickPrev = () => {
                     <iframe src='https://pages.parksystems.com/Marketing-Meeting-Marketo-Training_02-LP---Sales-Inquiry.html'> </iframe>
                     </div>
                     
+                    
 
                     &nbsp;
                     <h5>Scenario #2: Webinar Register</h5>
                     &nbsp;
-                    <div className={style.iframeBox}>
-                    <iframe src='https://pages.parksystems.com/Marketing-Meeting-Marketo-Training_02-LP---Sales-Inquiry.html'> </iframe>
+                    <div className={style.iframeBoxLong}>
+                    <iframe src='https://pages.parksystems.com/Marketing-Meeting-Marketo-Training_03-Webinar-Registration-LP.html'> </iframe>
+                    
+                    <button>
+                        <a href='https://app-sn06.marketo.com/?satellite=1#SL1122B2!' target="_blank">
+                            
+                                <svg width={26} viewBox="0 0 24 24" aria-hidden="true"
+                                     className="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e">
+                                    <g>
+                                        <path
+                                            d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z"></path>
+                                    </g>
+                                </svg>
+                                <h5>See the result</h5>
+                        </a>
+                    </button>
                     </div>
 
                     
@@ -170,9 +185,17 @@ const onClickPrev = () => {
                     When a potential customer is identified, they&apos;re initially labeled as a Marketing Qualified Lead (MQL) and passed to the Sales Department. 
                     Upon reaching the Sales team, they become a Sales Accepted Lead (SAL), indicating interest in a purchase. However, this interest isn&apos;t guaranteed, and if the lead decides against purchasing, 
                     they&apos;re recycled back to the Marketing Team for further engagement and nurturing with compelling content.
- 
                     </div>
-                    
+                    <div className={style.imgBoxVer}>
+                    <Image
+                    className={style.logo}
+                    src="/recycling.jpg"
+                    alt="recycling"
+                    width={1000}
+                    height={350}
+                    priority
+                    />
+                    </div>
                     </div>
                     )}
                     {page ===5 &&(
@@ -196,8 +219,8 @@ const onClickPrev = () => {
                         <polyline fill="none" stroke={page !== 1 ? "#000000" : "#e3e3e3"}  strokeWidth="2" points="7 2 17 12 7 22" transform="matrix(-1 0 0 1 24 0)" />
                     </svg>
                     </button>
-                    <button disabled={page===5} className={style.seeMoreButton} onClick={onClickNext}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill={page !== 5 ? "#000000" : "#e3e3e3"} height="20px" width="20px" version="1.1" id="XMLID_287_" viewBox="0 0 24 24" >
+                    <button disabled={page===4} className={style.seeMoreButton} onClick={onClickNext}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill={page !== 4 ? "#000000" : "#e3e3e3"} height="20px" width="20px" version="1.1" id="XMLID_287_" viewBox="0 0 24 24" >
                     <g id="next"><g>
                     <polygon points="6.8,23.7 5.4,22.3 15.7,12 5.4,1.7 6.8,0.3 18.5,12   "/></g></g>
                     </svg>

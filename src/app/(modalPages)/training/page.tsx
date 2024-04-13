@@ -26,9 +26,9 @@ export default function Training() {
         </div>
         <div className={style.body}>
             <Link href={'/training/introduction'}><h3>Introduction: Lead Journey with Marketo</h3></Link>
-            <Link href={'/introduction'}><h3>Training Session #1: </h3></Link>
-            <Link href={'/introduction'}><h3>Training Session #2: </h3></Link>
-            <Link href={'/introduction'}><h3>Training Session #3: </h3></Link>
+            <Link href={'/training/training1'}><h3>Training Session #1: </h3></Link>
+            <Link href={'/training/training2'}><h3>Training Session #2: </h3></Link>
+            <Link href={'/training/training3'}><h3>Training Session #3: </h3></Link>
             
             <div className={style.bodyComponents}>
                 

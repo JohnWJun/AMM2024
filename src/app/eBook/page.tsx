@@ -104,7 +104,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EYtDHBEyfeNEm1_x-_u9TYQB2cb0qbbAsXWPGyEtiNm3PA?e=LncQPa'}><h4>Global Digital Marketing Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EUXNHnXdgPVIl_Ih6478MUwB_oeCVFvSSPXvOYwDhydrLA?e=x1kFp6'}><h4>Global Digital Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/GDMOverview/quiz'}>
@@ -126,7 +126,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Social Media & Paid Media Strategy​</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EWSVMYSqhFdOv_mBqGiaseIBKeK_vnXxPVvQYgeUaEGOmw?e=dqib7C'}><h4>Social Media & Paid Media Strategy​</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/GCOverview/quiz'}>
@@ -154,7 +154,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Corporate Marketing Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ESwZVtu5bdRLsMaTnOmULl8BtkLmtjBYrgIyZ3Rky5DuMQ?e=TJSJ8M'}><h4>Corporate Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/corporateMktOverview/quiz'}>
@@ -264,7 +264,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EXB_M4HK_GxIs7SYt4sOVF0Bp_lPnEfQ5d0MtLkUos94tw?e=ujX8wL'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EcF827pGiMtInN9PexYj6bwBZsD063aQB_c7dk_MBLMWCQ?e=WP0UBu'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/bestKnownMethod/quiz'}>
@@ -372,7 +372,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EaGBcXi2Dw1Cq0WEDcw_XxsBcvjIhvNpqIVkwIztB7V5GQ?e=IyHBV3'}><h4>NSS China (PSG)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ESWjXZC5QNxJuPXGKOjcYgwBL-5cZEy1BRcT6GK99dbs6Q?e=JAq1SW'}><h4>NSS China (PSG)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSG/quiz'}>

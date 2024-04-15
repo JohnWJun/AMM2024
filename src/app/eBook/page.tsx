@@ -104,7 +104,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EUXNHnXdgPVIl_Ih6478MUwB_oeCVFvSSPXvOYwDhydrLA?e=x1kFp6'}><h4>Global Digital Marketing Overview</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EYtDHBEyfeNEm1_x-_u9TYQB2cb0qbbAsXWPGyEtiNm3PA?e=YOm8vA'}><h4>Global Digital Marketing Overview</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/GDMOverview/quiz'}>

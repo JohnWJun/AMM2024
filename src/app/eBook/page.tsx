@@ -79,7 +79,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                        <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EWK51mTYViRLvBCpuFRhoAwBuF1KO42uHs7q8DCaK9eWnw?e=dafjIH'}><h4>Keynote Speech</h4></Link>
+                        <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EWK51mTYViRLvBCpuFRhoAwBuF1KO42uHs7q8DCaK9eWnw?e=RSa6WA'}><h4>Keynote Speech</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/KeynoteSpeech/quiz'}>
@@ -250,6 +250,8 @@ export default function Ebook() {
             { day2Open === true &&   
                     <ul>
                     <h4 className={style.daySubTitle}>Marketing Insight</h4>
+
+
                     &nbsp;
                     <li>
                     <button>

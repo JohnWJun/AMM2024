@@ -30,7 +30,7 @@ export default function Home() {
       <div className={styles.upperMenubar}>
       
       <button className={styles.marketo}>  
-      <Link href="/training" title="Marketo Training Session">
+      <Link href="/training/introduction" title="Marketo Training Session">
       <Image
           src="/Marketo_logo.png"
           alt="Marketo Logo"

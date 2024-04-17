@@ -255,7 +255,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                        <Link href={'/'}><h4>Marketing Trend (from Adobe Summit)</h4></Link>
+                        <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EUXNHnXdgPVIl_Ih6478MUwB_oeCVFvSSPXvOYwDhydrLA?e=9PgJXF'}><h4>Marketing Trend (from Adobe Summit)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/marketingTrend/quiz'}>

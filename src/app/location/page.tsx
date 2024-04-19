@@ -63,7 +63,7 @@ export default function Location() {
                 </Link>
                 <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/Accommodation.png"
                     alt="Venue Map"
                     width={800}
@@ -95,7 +95,7 @@ export default function Location() {
                 <strong>Meeting Room:</strong> Conference Room 105
                 <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/Venue_map-1.png"
                     alt="Venue Map"
                     width={800}
@@ -117,7 +117,7 @@ export default function Location() {
                 <h5>Route1: Train (total 670 Yen)​</h5>
                  
                  <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/route1.png"
                     alt="Route 1"
                     width={800}
@@ -140,7 +140,7 @@ export default function Location() {
                 </svg>
                     </a></button><br/><br/>
                 <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/route2.png"
                     alt="Route 2"
                     width={800}
@@ -157,7 +157,7 @@ export default function Location() {
             <strong>Access:</strong> 3-minute walk from JR Kanda station
                     <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/AccommodationAccess.png"
                     alt="Access To Hotel"
                     width={500}
@@ -167,7 +167,7 @@ export default function Location() {
                     </div>
                     <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/AccommodationAccessDirection.png"
                     alt="Access To Hotel_Direction"
                     width={900}
@@ -183,7 +183,7 @@ export default function Location() {
             <strong>Meeting Time:</strong> Day 1: 9:30, Day 2: 9:00, Day3: 9:00<br/><br/>
                     <div className={style.imgBox}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/AccommodationToVenue.png"
                     alt="Access To Venue"
                     width={500}

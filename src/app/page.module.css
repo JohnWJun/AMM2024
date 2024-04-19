@@ -234,6 +234,14 @@
   .content {
     padding: 4rem;
   }
+  .footer{
+    display: none;
+  }
+
+  .center h1{
+    font-size: 98%;
+    font-weight: bold;
+  }
 
   .grid {
     grid-template-columns: 1fr;
@@ -311,6 +319,7 @@
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
+  
 }
 
 @media (prefers-color-scheme: dark) {

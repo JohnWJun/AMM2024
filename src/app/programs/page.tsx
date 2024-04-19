@@ -34,6 +34,7 @@ export default function Programs() {
             <div className={style.day}>
             <a href={'/GMM2024_Timetable_Fin-1.jpg'}>
                 <Image
+                className={style.image}
                 src="/GMM2024_Timetable_Fin-1.jpg"
                 alt="timeTable1"
                 width={600}
@@ -43,6 +44,7 @@ export default function Programs() {
             </a>
             <a href={'/GMM2024_Timetable_Fin-2.jpg'}>
                 <Image
+                className={style.image}
                 src="/GMM2024_Timetable_Fin-2.jpg"
                 alt="timeTable1"
                 width={600}
@@ -58,6 +60,7 @@ export default function Programs() {
             <div className={style.day}>
             <a href={'/GMM2024_Timetable_Fin-3.jpg'}>
             <Image
+            className={style.image}
             src="/GMM2024_Timetable_Fin-3.jpg"
             alt="timeTable1"
             width={600}
@@ -67,6 +70,7 @@ export default function Programs() {
             </a>
             <a href={'/GMM2024_Timetable_Fin-4.jpg'}>
             <Image
+            className={style.image}
             src="/GMM2024_Timetable_Fin-4.jpg"
             alt="timeTable1"
             width={600}
@@ -82,6 +86,7 @@ export default function Programs() {
             <div className={style.day}>
             <a href={'/GMM2024_Timetable_Fin-5.jpg'}>
             <Image
+            className={style.image}
             src="/GMM2024_Timetable_Fin-5.jpg"
             alt="timeTable1"
             width={600}

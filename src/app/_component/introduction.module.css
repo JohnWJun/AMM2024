@@ -149,6 +149,61 @@
     font-weight: bold;
     color: red;
 }
+.iframeBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframeBox iframe{
+    width: 100%;
+    height: 1600px;
+    border: none;
+    
+}
+.iframeBoxLong{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframeBoxLong iframe{
+    width: 100%;
+    height: 4500px;
+    border: none;
+}
+.iframeBox button{
+    background:  none;
+    border: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframeBoxLong button{
+    background:  none;
+    border: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframeBoxLong button:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+.iframeBox button:hover{
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 912px){
     .modalBackground {
@@ -161,10 +216,42 @@
     .modalBody {
         padding: 0 10px;
     }
+    .iframeBox iframe{
+        height: 5000px;
+    }
+    .imgBoxVer{
+        width: 100%;
+    }
+    
 }
+
 @media screen and (max-width: 768px){
     .modal {
         min-width: 500px;
+    }
+    /* .iframeBox iframe{
+        height: 5000px;
+    } */
+    .iframeBoxLong{
+        width: 100%;
+    }
+    .iframeBox iframe{
+        height: 2200px;
+    }
+    .iframeBoxLong iframe{
+        height: 9000px;
+    }
+    .imageLong{
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 50%;
+        height: 50%;
+    }
+    .image{
+        width: 50%;
+        height: 50%;
     }
 }
 @media screen and (max-width: 578px){
@@ -273,58 +360,4 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.iframeBox{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.iframeBox iframe{
-    width: 100%;
-    height: 1600px;
-    border: none;
-    
-}
-.iframeBoxLong{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.iframeBoxLong iframe{
-    width: 100%;
-    height: 4500px;
-    border: none;
-}
-.iframeBox button{
-    background:  none;
-    border: none;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.iframeBoxLong button{
-    background:  none;
-    border: none;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.iframeBoxLong button:hover{
-    background-color: #e3e3e3;
-    border-radius: 4px;
-    cursor: pointer;
-}
-    
-.iframeBox button:hover{
-    background-color: #e3e3e3;
-    border-radius: 4px;
-    cursor: pointer;
 }

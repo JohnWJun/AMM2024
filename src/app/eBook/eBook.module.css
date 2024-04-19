@@ -115,3 +115,33 @@
     cursor: pointer;
     background-color: gainsboro;
 }
+@media (max-width: 700px) {
+    .header h1{
+      display: none;
+    }
+    .header img {
+        position: fixed;
+        top: 5;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999; /* Adjust as needed */
+    }
+    .body li{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .day1{
+        padding:10px 10px 10px 10px;
+
+    }
+    .day2{
+        padding:10px 10px 10px 10px;
+
+    }
+    .day3{
+        padding:10px 10px 10px 10px;
+
+    }
+        
+}

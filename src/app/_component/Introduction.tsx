@@ -60,7 +60,7 @@ const onClickPrev = () => {
                     </ul>
                     <div className={style.imgBoxVer}>
                     <Image
-                    className={style.logo}
+                    className={style.imageLong}
                     src="/introPic1.png"
                     alt="introPic1"
                     width={800}
@@ -69,7 +69,7 @@ const onClickPrev = () => {
                     />
                     <div className={style.imgBoxHor}>
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/introPic2.png"
                     alt="introPic2"
                     width={400}
@@ -77,7 +77,7 @@ const onClickPrev = () => {
                     priority
                     />
                     <Image
-                    className={style.logo}
+                    className={style.image}
                     src="/introPic3.png"
                     alt="introPic3"
                     width={450}
@@ -188,7 +188,7 @@ const onClickPrev = () => {
                     </div>
                     <div className={style.imgBoxVer}>
                     <Image
-                    className={style.logo}
+                    className={style.imageLong}
                     src="/recycling.jpg"
                     alt="recycling"
                     width={1000}

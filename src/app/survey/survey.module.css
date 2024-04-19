@@ -55,3 +55,31 @@
     padding-left: 120px;
     z-index: 1000;
 }
+@media (max-width: 700px) {
+    .header h1{
+      display: none;
+    }
+    .header img {
+        position: fixed;
+        top: 5;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999; /* Adjust as needed */
+    }
+
+    .buttonSection{
+        position: relative;
+        display: flex;
+        right: auto;
+        top: auto;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .buttonSection button {
+        font-size: 90%;
+    }
+
+}

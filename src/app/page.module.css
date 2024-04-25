@@ -51,6 +51,7 @@
   background: none;
 }
 .vote:hover{
+  cursor: pointer;
   padding: 10px 10px 8px 10px;
   border: none;
   border-radius: 100px;

@@ -202,7 +202,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EX3GaGg8F8NJqTJXrBr5598BqJdH28h0oVAjeCOyv939QQ?e=QTyAXR'}><h4>Common Goal: To Turn Prospects Into Customers</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EbbUcl5CbwVKjoDdR0btGDIBnyinZ5v5FauzClCElq9HJg?e=4bo3Yj'}><h4>Common Goal: To Turn Prospects Into Customers</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/commonGoal/quiz'}>
@@ -266,7 +266,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EcF827pGiMtInN9PexYj6bwBZsD063aQB_c7dk_MBLMWCQ?e=WP0UBu'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EaEsOUdSyXpBv99wT8yna6kByyQMCTeX_b03ahkrmSwqsw?e=rUMjTk'}><h4>Regional Marketing Best Known Method - PSG</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/bestKnownMethod/quiz'}>
@@ -277,7 +277,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>HQ X Regional Collaboration - PSI</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ETNRjY5yIKJEocdAmpzcSKYB1P-K2dvRi-0x71HqQ2kEaA?e=XHdyq3'}><h4>HQ X Regional Collaboration - PSI</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/HQRegionalCollab/quiz'}>
@@ -291,7 +291,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>NANOscientific Rebranding</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ESdIF6YO8QhLq58xa1VSJYgBcY66xmM8Lbc6CjJQEp7I9A?e=RaFrSK'}><h4>NANOscientific Rebranding</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/NANOscientificRebranding/quiz'}>
@@ -374,7 +374,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ESWjXZC5QNxJuPXGKOjcYgwBL-5cZEy1BRcT6GK99dbs6Q?e=JAq1SW'}><h4>NSS China (PSG)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EQG5ysKjVu5Kr_qqY1d_xeEBOPf6EPxwWm-4q23lWiyKWg?e=rNgrne'}><h4>NSS China (PSG)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSG/quiz'}>
@@ -385,7 +385,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/ESCuvEBE9p5LvGKwb-yRregByzbDJWxeL4MGgwPNxJJNwQ?e=XgmrTX'}><h4>NSS Korea (PSK)</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EXjd5u3D59xLt58yEWFhTqUB5wQlt3DT6FLT2pQ__MVD1w?e=tcZS7o'}><h4>NSS Korea (PSK)</h4></Link>
                     </button>
                     {/* <button>
                         <Link href={'eBook/PSK/quiz'}>
@@ -459,7 +459,7 @@ export default function Ebook() {
                     &nbsp;
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Marketo Training Session #1 – Event</h4></Link>
+                    <h4>Marketo Training Session #1 – Event (no ppt)</h4>
                     </button>
                     <button>
                         <Link href={'eBook/training1/quiz'}>
@@ -481,7 +481,7 @@ export default function Ebook() {
 
                     <li>
                     <button>
-                    <Link href={'/'}><h4>Marketo Training Session #3 – Marketing Performance Insight</h4></Link>
+                    <Link href={'https://parkafm-my.sharepoint.com/:p:/g/personal/sun_ham_parksystems_com/EfEOpiBDGdFEq_ZSWvNKZQQBOpj548rm_Wozg9Y2MFtsMQ?e=5kPb4c'}><h4>Marketo Training Session #3 – Marketing Performance Insight</h4></Link>
                     </button>
                     <button>
                         <Link href={'eBook/training3/quiz'}>

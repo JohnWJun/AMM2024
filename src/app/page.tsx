@@ -1,8 +1,21 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import SakuraFalls from "@/app/_component/SakuraFalls";
+import { useState } from 'react';
 
 export default function Home() {
+  const [isParkyTime, setIsParkyTime] = useState(false);
+
+  const onClickParky = () => {
+
+      if(isParkyTime === false){
+          setIsParkyTime(true)
+      }else {
+          setIsParkyTime(false)
+      }
+  }
   return (
     <main className={styles.main}>
       
@@ -40,8 +53,17 @@ export default function Home() {
         />
         </Link>
         </button>
+    
 
-        <button className={styles.vote}> 
+    <button className={styles.vote} onClick={onClickParky}><Image
+                      src="/sakura.png"
+                      alt="sakura icon"
+                      width={50}
+                      height={50}
+                      priority
+                      /></button>
+
+        {/* <button className={styles.vote}> 
       <Link href="/vote" title="Vote for Best Performance Award Winner">
       <Image
           src="/vote.svg"
@@ -52,7 +74,7 @@ export default function Home() {
         />
         </Link>
         
-        </button>
+        </button> */}
        
         </div>
       <div className={styles.grid}>
@@ -76,15 +98,6 @@ export default function Home() {
           <p>Check the agendas & schedule</p>
         </Link>
 
-        <Link
-          href="/meal"
-          className={styles.card}
-        >
-          <h2>
-            Lunch Menu <span>-&gt;</span>
-          </h2>
-          <p>Lunch menu</p>
-        </Link>
 
         <Link
           href="/location"
@@ -117,15 +130,24 @@ export default function Home() {
         </Link>
 
         <Link
-          href="/qnA"
+          href="https://parkafm-my.sharepoint.com/:w:/g/personal/sun_ham_parksystems_com/Eez7N4TLBTtOqKR0bWQ8_ScBCE_NSyPCmeeey-FaMpXf8Q?e=PVSEDW"
           className={styles.card}
         >
           <h2>
-            Q&A<span>-&gt;</span>
+            Meeting Note<span>-&gt;</span>
           </h2>
-          <p>Leave any questions here</p>
+          <p>Check all agendas and discussed topics</p>
         </Link>
 
+        <Link
+          href="https://parkafm.sharepoint.com/:f:/r/sites/Park-Intranet/WW%20Marketing%20Forum/2024%20Annual%20Marketing%20Meeting?csf=1&web=1&e=xgp0FB"
+          className={styles.card}
+        >
+          <h2>
+            Records <span>-&gt;</span>
+          </h2>
+          <p>Presentation videos</p>
+        </Link>
         <Link
           href="/survey"
           className={styles.card}
@@ -209,7 +231,7 @@ export default function Home() {
 
         </div>
         </div>
-        
+        { isParkyTime ?(<SakuraFalls/>): null}
     </main>
   );
 }
